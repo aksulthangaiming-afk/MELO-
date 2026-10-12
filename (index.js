@@ -9,8 +9,8 @@ const client = new Client({
   ]
 });
 
-client.once('ready', () => {
-  console.log(`Bot online ആയിരിക്കുന്നു: ${client.user.tag}`);
+client.once(`ready', () => {
+  console.log(\`Bot online ആയിരിക്കുന്നു: ${client.user.tag}`);
 });
 
 client.login(process.env.TOKEN);
